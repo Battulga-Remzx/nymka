@@ -1,30 +1,30 @@
 const quizData = [
     {
-        question: "What is the capital of France?",
-        a: "Berlin",
-        b: "Madrid",
-        c: "Paris",
-        d: "Rome",
-        correct: "c"
-    },
-    {
-        question: "What is the largest planet in our solar system?",
-        a: "Earth",
-        b: "Jupiter",
-        c: "Mars",
-        d: "Saturn",
+        question: "Монгол улсын нийслэл юу вэ?",
+        a: "Москва",
+        b: "Улаанбаатар",
+        c: "Парис",
+        d: "Гонг Конг",
         correct: "b"
     },
     {
-        question: "Which element has the chemical symbol 'O'?",
-        a: "Oxygen",
-        b: "Gold",
-        c: "Osmium",
-        d: "Hydrogen",
-        correct: "a"
+        question: "Монгол улс хэдэн аймагтай вэ?",
+        a: "22",
+        b: "19",
+        c: "20",
+        d: "21",
+        correct: "d"
     },
     {
-        question: "How many continents are there?",
+        question: "Монгол улсын цаг агаар ямар вэ?",
+        a: "10",
+        b: "-10",
+        c: "0",
+        d: "алдаа",
+        correct: "b"
+    },
+    {
+        question: "Монгол улсын төрийн тэргүүн хэн бэ?",
         a: "5",
         b: "6",
         c: "7",
@@ -32,15 +32,15 @@ const quizData = [
         correct: "c"
     },
     {
-        question: "What is the capital city of Australia?",
-        a: "Sydney",
-        b: "Canberra",
-        c: "Melbourne",
-        d: "Perth",
+        question: "Австралийн нийслэл хот юу вэ?",
+        a: "Сидни",
+        b: "Канберра",
+        c: "Мельбурн",
+        d: "Перт",
         correct: "b"
     },
     {
-        question: "What year did World War II end?",
+        question: "Дэлхийн хоёрдугаар дайн ямар жил дууссан бэ?",
         a: "1945",
         b: "1939",
         c: "1941",
@@ -48,15 +48,15 @@ const quizData = [
         correct: "a"
     },
     {
-        question: "Who painted the Mona Lisa?",
-        a: "Vincent van Gogh",
-        b: "Claude Monet",
-        c: "Leonardo da Vinci",
-        d: "Pablo Picasso",
+        question: "Мона Лизаг хэн зурсан бэ?",
+        a: "Винсент ван Гог",
+        b: "Клод Моне",
+        c: "Леонардо да Винчи",
+        d: "Пабло Пикассо",
         correct: "c"
     },
     {
-        question: "What is the smallest prime number?",
+        question: "Хамгийн жижиг анхны тоо юу вэ?",
         a: "1",
         b: "2",
         c: "3",
@@ -64,19 +64,19 @@ const quizData = [
         correct: "b"
     },
     {
-        question: "Which planet is known as the Red Planet?",
-        a: "Venus",
-        b: "Saturn",
-        c: "Mars",
-        d: "Jupiter",
+        question: "Улаан гариг гэж нэрлэгддэг планет юу вэ?",
+        a: "Венус",
+        b: "Сатурн",
+        c: "Марс",
+        d: "Юпитер",
         correct: "c"
     },
     {
-        question: "What is the largest ocean on Earth?",
-        a: "Atlantic Ocean",
-        b: "Indian Ocean",
-        c: "Arctic Ocean",
-        d: "Pacific Ocean",
+        question: "Дэлхийн хамгийн том далай юу вэ?",
+        a: "Атлантын далай",
+        b: "Энэтхэгийн далай",
+        c: "Арктикийн далай",
+        d: "Номхон далай",
         correct: "d"
     }
 ];
