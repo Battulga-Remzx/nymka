@@ -1,85 +1,86 @@
 const quizData = [
     {
-        question: "4-ийн 5 дахин их утга юу вэ?",
-        a: "20",
-        b: "25",
-        c: "15",
-        d: "10",
+        question: "Layla ямар үүрэгтэй баатар вэ?",
+        a: "Marksman",
+        b: "Tank",
+        c: "Mage",
+        d: "Support",
         correct: "a"
     },
     {
-        question: "90-г 3-аар хуваавал юу гарах вэ?",
-        a: "30",
-        b: "35",
-        c: "40",
-        d: "25",
+        question: "Chou ямар үүрэгтэй баатар вэ?",
+        a: "Mage",
+        b: "Fighter",
+        c: "Tank",
+        d: "Marksman",
+        correct: "b"
+    },
+    {
+        question: "Minotaur ямар үүрэгтэй баатар вэ?",
+        a: "Tank",
+        b: "Mage",
+        c: "Marksman",
+        d: "Support",
         correct: "a"
     },
     {
-        question: "Тэгш өнцөгтийн талбайг хэрхэн тооцох вэ?",
-        a: "Сөрөг өнцөг ба уртын хослогдол",
-        b: "Өнцгийн нийлбэр",
-        c: "Урт ба өргөний үржвэр",
-        d: "Диагональ талбай",
+        question: "Kagura ямар үүрэгтэй баатар вэ?",
+        a: "Mage",
+        b: "Tank",
+        c: "Marksman",
+        d: "Assassin",
+        correct: "a"
+    },
+    {
+        question: "Leomord ямар үүрэгтэй баатар вэ?",
+        a: "Support",
+        b: "Marksman",
+        c: "Fighter",
+        d: "Mage",
         correct: "c"
     },
     {
-        question: "12 ба 8-ийн хамгийн том хуваагч юу вэ?",
-        a: "4",
-        b: "6",
-        c: "2",
-        d: "8",
+        question: "Faramis ямар үүрэгтэй баатар вэ?",
+        a: "Tank",
+        b: "Assassin",
+        c: "Mage",
+        d: "Marksman",
+        correct: "c"
+    },
+    {
+        question: "Angela ямар үүрэгтэй баатар вэ?",
+        a: "Mage",
+        b: "Tank",
+        c: "Support",
+        d: "Assassin",
+        correct: "c"
+    },
+    {
+        question: "Karrie ямар үүрэгтэй баатар вэ?",
+        a: "Marksman",
+        b: "Support",
+        c: "Tank",
+        d: "Mage",
         correct: "a"
     },
     {
-        question: "10-ын квадрат утга юу вэ?",
-        a: "100",
-        b: "20",
-        c: "10",
-        d: "50",
+        question: "X.Borg ямар үүрэгтэй баатар вэ?",
+        a: "Fighter",
+        b: "Marksman",
+        c: "Mage",
+        d: "Assassin",
         correct: "a"
     },
     {
-        question: "Дунд зэргийн аравт 5-ийг нэмэхэд ямар утга гарах вэ?",
-        a: "10",
-        b: "15",
-        c: "5",
-        d: "20",
+        question: "Selena ямар үүрэгтэй баатар вэ?",
+        a: "Marksman",
+        b: "Assassin",
+        c: "Support",
+        d: "Tank",
         correct: "b"
-    },
-    {
-        question: "Бүх тооны хувьд хуваагч нь юу вэ?",
-        a: "1",
-        b: "0",
-        c: "2",
-        d: "Тэгш өнцөгт",
-        correct: "a"
-    },
-    {
-        question: "Хоёр нөөцийн нийлбэр нь юу вэ?",
-        a: "Эхлэх утга",
-        b: "Зүүн хүлээлт",
-        c: "Өгөгдөл",
-        d: "Эцсийн утга",
-        correct: "d"
-    },
-    {
-        question: "15-ийг 5-аар хуваавал юу гарах вэ?",
-        a: "5",
-        b: "3",
-        c: "10",
-        d: "2",
-        correct: "b"
-    },
-    {
-        question: "Үнэгүй диагональ талбайг хэрхэн тооцох вэ?",
-        a: "Талбайн урт ба өргөний үржвэр",
-        b: "Бүдүүн зүсэлт",
-        c: "Тэгш өнцөгт хэмжээ",
-        d: "Талбайн үзэгдэл",
-        correct: "a"
     }
 ];
+
 
 
 let currentQuestion = 0;
