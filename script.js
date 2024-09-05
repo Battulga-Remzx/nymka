@@ -1,83 +1,73 @@
 const quizData = [
     {
-        question: "Layla ямар үүрэгтэй баатар вэ?",
-        a: "Marksman",
-        b: "Tank",
-        c: "Mage",
-        d: "Support",
+        question: " Найз чинь таны машины хойно байрлуулсан машинаа гаргах хэрэгтэй болвол та өөрөө хийхээс зайлсхийж түүнд машины түлхүүрээ өгж явуулах уу ?",
+        a: "Тийм",
+        b: "Үгүй",
+        c: "Бусад",
         correct: "a"
     },
     {
-        question: "Chou ямар үүрэгтэй баатар вэ?",
-        a: "Mage",
-        b: "Fighter",
-        c: "Tank",
-        d: "Marksman",
-        correct: "b"
-    },
-    {
-        question: "Minotaur ямар үүрэгтэй баатар вэ?",
-        a: "Tank",
-        b: "Mage",
-        c: "Marksman",
-        d: "Support",
+        question: "Ус цэвэршүүлэгч доторх ус дууссны дараа та шууд шинэ ус дэлгүүрээс авч хуучинаа сольж тавих уу ?",
+        a: "Тийм ",
+        b: "Үгүй ",
+        c: "Бусад",
         correct: "a"
     },
     {
-        question: "Kagura ямар үүрэгтэй баатар вэ?",
-        a: "Mage",
-        b: "Tank",
-        c: "Marksman",
-        d: "Assassin",
+        question: "Таны үйлчлүүлдэг АТМ машин танай гэрээс нэг километрын зайд байдаг, гэхдээ үүнээс ч илүү ойрхон нь 3%-н үйлчилгээний шимэгдэл авдаг . Та нэмэлт төлбөрийг үл харгалзан хамгийн ойр байрлах АТМ руу очдог уу?",
+        a: "Тийм",
+        b: "Үгүй",
+        c: "Бусад",
         correct: "a"
     },
     {
-        question: "Leomord ямар үүрэгтэй баатар вэ?",
-        a: "Support",
-        b: "Marksman",
-        c: "Fighter",
-        d: "Mage",
-        correct: "c"
-    },
-    {
-        question: "Faramis ямар үүрэгтэй баатар вэ?",
-        a: "Tank",
-        b: "Assassin",
-        c: "Mage",
-        d: "Marksman",
-        correct: "c"
-    },
-    {
-        question: "Angela ямар үүрэгтэй баатар вэ?",
-        a: "Mage",
-        b: "Tank",
-        c: "Support",
-        d: "Assassin",
-        correct: "c"
-    },
-    {
-        question: "Karrie ямар үүрэгтэй баатар вэ?",
-        a: "Marksman",
-        b: "Support",
-        c: "Tank",
-        d: "Mage",
+        question: "Таны шүдний оо дуусчихлаа . Та яах вэ ?",
+        a: "Оо-г маш сайн шахаж үлдсэнийг нь гаргана",
+        b: " Дэлгүүр орж авна ",
+        c: " Бохь зажилна",
         correct: "a"
     },
     {
-        question: "X.Borg ямар үүрэгтэй баатар вэ?",
-        a: "Fighter",
-        b: "Marksman",
-        c: "Mage",
-        d: "Assassin",
+        question: "Таныг унтаж байхад найз чинь залгаад гэрээ нүүлгэхэд туслалцаа хэрэгтэй байна гэвэл та яаа вэ ? ",
+        a: "Түүнд очлоо гэж хэлнэ ",
+        b: "Түүнд 20 минутын дараа очно гэхдээ зөвхөн 1 цаг л байж чадна гэж хэлнэ",
+        c: "Түүнд завгүй байна гэж хэлчихээд унтна",
         correct: "a"
     },
     {
-        question: "Selena ямар үүрэгтэй баатар вэ?",
-        a: "Marksman",
-        b: "Assassin",
-        c: "Support",
-        d: "Tank",
-        correct: "b"
+        question: "Таньд хөгширөлтийг удаашруулдаг туршилтын усыг ууж үзэх санал ирлээ . Гэхдээ та дараагын 2 сар өдөр болгон үүрийн 5 аас сэрж усаа уух ёстой . Та зөвшөөрөх үү ?",
+        a: "Тийм ",
+        b: "Үгүй",
+        c: "Бусад",
+        correct: "a"
+    },
+    {
+        question: "Та цагаан хувцсаа өнгөтэй хувцаснааса ялгаж тавьдаг уу ?",
+        a: "Тийм ",
+        b: "Үгүй ",
+        c: "Бусад",
+        correct: "a"
+    },
+    {
+        question: "Шатаар явах нь хурдан ч гэсэн лифт хүлээдэг үү ?",
+        a: "Тийм ",
+        b: "Үгүй ",
+        c: "Бусад",
+        correct: "a"
+    },
+    {
+        question: "Та бүрэн үйлчилгээтэй шатахуун түгээх газрыг илүүд үздэг үү ? ",
+        a: "Тийм ",
+        b: "Үгүй ",
+        c: "Бусад",
+        correct: "a"
+    },
+    {
+        question: "Угаалгын өрөөнд чинь хоосон шампунь-ий сав байгаа юу ? ",
+        a: "Тийм ",
+        b: "Үгүй",
+        c: "Бусад",
+        correct: "a"
     }
 ];
 
@@ -103,12 +93,10 @@ function loadQuiz() {
         <div>
             <input type="radio" id="c" name="answer" value="c">
             <label for="c">${currentQuizData.c}</label>
-        </div>
-        <div>
-            <input type="radio" id="d" name="answer" value="d">
-            <label for="d">${currentQuizData.d}</label>
-        </div>
-    `;
+        </div>`;
+    
+    quiz.classList.remove('fade-out');
+    quiz.classList.add('fade-in');
 }
 
 function getSelectedAnswer() {
@@ -123,16 +111,25 @@ function getSelectedAnswer() {
 }
 
 function showResult() {
-    document.getElementById('quiz').classList.add('hidden');
-    document.getElementById('result').classList.remove('hidden');
+    const quiz = document.getElementById('quiz');
+    const result = document.getElementById('result');
+
+    quiz.classList.add('fade-out');
+    result.classList.remove('hidden');
+    result.classList.add('fade-in');
+
     document.getElementById('score').textContent = score;
 }
 
 function restartQuiz() {
     currentQuestion = 0;
     score = 0;
-    document.getElementById('quiz').classList.remove('hidden');
-    document.getElementById('result').classList.add('hidden');
+    const quiz = document.getElementById('quiz');
+    const result = document.getElementById('result');
+
+    quiz.classList.remove('hidden', 'fade-out');
+    result.classList.add('hidden', 'fade-out');
+
     loadQuiz();
 }
 
@@ -151,7 +148,7 @@ document.getElementById('next').addEventListener('click', () => {
             showResult();
         }
     } else {
-        alert("Please select an answer.");
+        alert("Хариултаа сонгоно уу!");
     }
 });
 
