@@ -82,18 +82,18 @@ function loadQuiz() {
 
     quiz.innerHTML = `
         <h2>${currentQuizData.question}</h2>
-        <div class="answer-box">
+        <label class="answer-box" for="a">
             <input type="radio" id="a" name="answer" value="a">
-            <label for="a">${currentQuizData.a}</label>
-        </div>
-        <div class="answer-box">
+            ${currentQuizData.a}
+        </label>
+        <label class="answer-box" for="b">
             <input type="radio" id="b" name="answer" value="b">
-            <label for="b">${currentQuizData.b}</label>
-        </div>
-        <div class="answer-box">
+            ${currentQuizData.b}
+        </label>
+        <label class="answer-box" for="c">
             <input type="radio" id="c" name="answer" value="c">
-            <label for="c">${currentQuizData.c}</label>
-        </div>`;
+            ${currentQuizData.c}
+        </label>`;
 
     quiz.classList.remove('fade-out');
     quiz.classList.add('fade-in');
