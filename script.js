@@ -71,8 +71,6 @@ const quizData = [
     }
 ];
 
-
-
 let currentQuestion = 0;
 let score = 0;
 
@@ -114,7 +112,7 @@ function showResult() {
     const quiz = document.getElementById('quiz');
     const result = document.getElementById('result');
 
-    quiz.classList.add('fade-out');
+    quiz.style.display = 'none';  // Hide the quiz container
     result.classList.remove('hidden');
     result.classList.add('fade-in');
 
@@ -127,11 +125,13 @@ function restartQuiz() {
     const quiz = document.getElementById('quiz');
     const result = document.getElementById('result');
 
-    quiz.classList.remove('hidden', 'fade-out');
+    quiz.style.display = 'block';  // Show the quiz container again
     result.classList.add('hidden', 'fade-out');
 
     loadQuiz();
 }
+
+const quiz = document.getElementById('quiz');
 
 document.getElementById('next').addEventListener('click', () => {
     const selectedAnswer = getSelectedAnswer();
